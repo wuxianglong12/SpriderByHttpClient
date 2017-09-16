@@ -6,6 +6,11 @@ import com.ustc.sse.Crawler.StoreNews;
 
 import java.util.concurrent.*;
 
+/**
+ * @author wangrun
+ * @time 2017.9.16
+ */
+
 public class Spider {
     //页面总数
     static final int pageNum = 2363;

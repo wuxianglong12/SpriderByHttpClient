@@ -4,6 +4,11 @@ import com.sun.org.apache.bcel.internal.generic.NEW;
 
 import java.util.concurrent.BlockingQueue;
 
+/**
+ * @author wangrun
+ * @time 2017.9.16
+ */
+
 public class PaserNew implements Runnable{
     private BlockingQueue<String> urlQueue = null;
     private BlockingQueue<NewsModel> resultQueue = null;

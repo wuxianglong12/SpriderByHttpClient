@@ -2,9 +2,20 @@ package com.ustc.sse.Crawler;
 
 import java.util.concurrent.BlockingQueue;
 
+/**
+ * @author wangrun
+ * @time 2017.9.16
+ */
+
 public class StoreNews implements  Runnable {
-    BlockingQueue<NewsModel> blockingQueue = null;
+    BlockingQueue<NewsModel> blockingQueue = null;//由paserNews线程写入的NewsModel
     NewsModel newsModel =null;
+
+    /**
+     *
+     * 实现数据存储
+     * @param Queue
+     */
     public StoreNews (BlockingQueue Queue){
         blockingQueue = Queue;
     }
@@ -20,6 +31,7 @@ public class StoreNews implements  Runnable {
                 /**
                  *留作数据存储化
                  */
+
             }
         }
         catch (InterruptedException e ){

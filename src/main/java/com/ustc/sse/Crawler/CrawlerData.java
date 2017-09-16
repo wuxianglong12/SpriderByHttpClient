@@ -16,6 +16,12 @@ import java.util.concurrent.BlockingQueue;
 
 public class CrawlerData {
     static CloseableHttpClient client = HttpClients.createDefault();
+
+    /**
+     * 通过url得到页面的Document
+     * @param url
+     * @return
+     */
     public static Document getContext(String url){
         HttpGet httpGet = new HttpGet(url);
         try {
