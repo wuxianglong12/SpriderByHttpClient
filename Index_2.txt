@@ -1,0 +1,667 @@
+<body class="main"> 
+ <header> 
+  <div class="top"> 
+   <div class="wrap"> 
+    <ul class="fl nav"> 
+     <li> <a href="http://www.meadin.com/" class="meadin-phone">手机迈点<span class="code"><img src="http://f3.v.veimg.cn/meadincms/static/meadin/v3/images/code-phone.jpg" alt="手机迈点"></span></a> 
+      <!-- <a href="http://m.meadin.com/read/index/meadinreading" target="_blank">新闻客户端</a> --> </li> 
+     <li><a href="http://hao.meadin.com/" target="_blank">迈点导航</a></li> 
+     <li><a href="http://index.meadin.com/" target="_blank">品牌指数</a></li> 
+     <!-- <li><a href="http://index.meadin.com/yuqing" target="_blank">舆情指数</a></li> --> 
+     <li><a href="http://baike.meadin.com/" target="_blank">迈点百科</a></li> 
+     <li><a href="http://info.meadin.com/special/maidian_huodong" target="_blank">迈点活动</a></li> 
+     <!-- <li><a href="http://info.meadin.com/special_list_68_1.html" target="_blank">资讯周刊</a></li> --> 
+    </ul> 
+    <div class="search-key fr"> 
+     <form method="get" id="search_form" name="search_form" action="http://so.meadin.com/search/news" accept-charset="utf-8" data-charset="utf-8"> 
+      <div class="fr iconfont icon" onclick="document.search_form.submit()">
+       
+      </div> 
+      <input type="text" class="fr search-input" id="q" name="q" placeholder="请输入关键字"> 
+      <div class="fr ui-select-set js-select-set"> 
+       <span class="ui-select-native js-select-native"><span class="js-key">资讯</span><span class="iconfont"></span></span> 
+       <ul class="ui-select js-select hide down"> 
+        <li>资料</li> 
+        <li class="cur">资讯</li> 
+        <li>报告</li> 
+        <li>课程</li> 
+        <li>百科</li> 
+       </ul> 
+      </div> 
+      <div class="login fr js-login" data-login="<a class=&quot;fr load js-load&quot;>登录</a><a href=&quot;http://www.meadin.com/index.php?m=member&amp;c=register&quot; class=&quot;fr reg&quot;>注册</a>" data-logout="<span class=&quot;fl&quot;>欢迎登录迈点</span><a class=&quot;sign-out red fl js-sign-out&quot;>退出</a><span class=&quot;fl&quot;>我要去-></span>
+                        <div class=&quot;fl member js-member&quot;>
+                            <div class=&quot;red&quot;> 会员中心 <span class=&quot;iconfont&quot;></span> </div>
+                            <ul class=&quot;list hide js-list&quot;>
+                                <li><a href=&quot;http://papers.9first.com/&quot; target=&quot;_blank&quot;>我的智库</a></li>
+                                <li><a href=&quot;http://baike.meadin.com/&quot; target=&quot;_blank&quot;>我的百科</a></li>
+                                <li><a href=&quot;http://bbs.meadin.com/&quot; target=&quot;_blank&quot;>迈点论坛</a></li>
+                            </ul>
+                        </div>"></div> 
+     </form> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="wrap logo-box" style="overflow: visible;"> 
+   <!-- 企业LOGO --> 
+   <a href="http://www.meadin.com/" class="logo fl"> <img src="http://f3.v.veimg.cn/meadincms/static/meadin/v3/images/logo.jpg" alt="酒店业门户网站"> </a> 
+   <a href="http://www.veryeast.cn/usershow/goto.asp?Aid=kbykby2017915102616" target="_blank"><img class="classdiy" src="http://p3.v.veimg.cn/adimg/2017-9/2017915102559598.jpg" border="0" align="top" width="600" height="80" alt="18届新发现研讨会" title="18届新发现研讨会"></a> 
+  </div> 
+  <!-- 导航 --> 
+  <nav class="j-nav"> 
+   <ul class="wrap" style="width:1000px"> 
+    <li><a href="http://www.meadin.com/">首页</a></li> 
+    <li data-column="nav-zx" class="cur j-nav-li"><a href="http://info.meadin.com/">资讯</a></li> 
+    <li data-column="nav-yj" class=" j-nav-li"><a href="http://res.meadin.com/">研究</a></li> 
+    <li data-column="nav-xjs" class=" j-nav-li"><a href="http://tech.meadin.com/">新发现</a></li> 
+    <li data-column="nav-zl" class=" j-nav-li"><a href="http://column.meadin.com/">专栏</a></li> 
+    <li data-column="nav-hd" class=" j-nav-li"><a href="http://event.meadin.com/">活动</a></li> 
+    <li><a href="http://bbs.meadin.com/" target="_blank">论坛</a></li> 
+    <!-- <li><a href="http://papers.9first.com/" target="_blank">资料</a></li> --> 
+    <li class="new"><a href="http://www.maidianju.com/" target="_blank">迈点聚<span class="icon"><img src="http://f3.v.veimg.cn/meadincms/static/meadin/v3/images/new.gif" alt=""></span></a></li> 
+    <!-- <li><a href="http://e.meadin.com/" target="_blank">English</a></li> --> 
+    <li><a href="http://www.meadinju.com/" target="_blank">迈居</a></li> 
+    <li><a href="http://www.meadinyun.com/" target="_blank">众数</a></li> 
+   </ul> 
+  </nav> 
+  <div class="two-nav"> 
+   <!-- 资讯 --> 
+   <ul data-column="nav-zx" class="wrap clear2 hide"> 
+    <li><a href="http://info.meadin.com/Industry/">酒店</a></li> 
+    <li><a href="http://info.meadin.com/bnb/">民宿</a></li> 
+    <li><a href="http://info.meadin.com/gongyu/">公寓</a></li> 
+    <li><a href="http://info.meadin.com/wework/Index.shtml">联合办公</a></li> 
+    <li><a href="http://info.meadin.com/airbnb/">在线短租</a></li> 
+    <li><a href="http://info.meadin.com/Ota/">在线旅游</a></li> 
+    <!-- <li><a href="http://info.meadin.com/bnb/">客栈民宿</a></li> --> 
+    <li><a href="http://info.meadin.com/Scenic/">景区</a></li> 
+    <li><a href="http://info.meadin.com/TravelAgency/">旅行社</a></li> 
+    <li><a href="http://info.meadin.com/Airline/">航空</a></li> 
+    <!-- <li><a href="http://info.meadin.com/PeopleReports/">人物访谈</a></li> --> 
+    <li><a href="http://info.meadin.com/DynamicPersonnel/">任命</a></li> 
+    <li><a href="http://info.meadin.com/BrandDynamics/">开业</a></li> 
+    <!-- <li><a href="http://info.meadin.com/PictureNews/Index.shtml">图片资讯</a></li> --> 
+    <!-- <li><a href="http://info.meadin.com/special_init_1.html" target="_blank">专题策划</a></li> --> 
+    <!-- <li><a href="http://info.meadin.com/Welfare_1.shtml">酒店公益</a></li> --> 
+    <li><a href="http://info.meadin.com/PictureNews/Index.shtml">图集</a></li> 
+    <li><a href="http://info.meadin.com/pph/">品牌</a></li> 
+   </ul> 
+   <!-- 研究 --> 
+   <ul data-column="nav-yj" class="wrap clear2 hide nav-yj"> 
+    <!-- <li><a href="http://www.meadin.com/tag_品牌发展报告.shtml">品牌报告</a></li>
+        <li><a href="http://www.meadin.com/tag_舆情指数报告.shtml">舆情报告</a></li>
+        <li><a href="http://www.meadin.com/tag_开业统计报告.shtml">开业报告</a></li>
+        <li><a href="http://www.meadin.com/tag_薪酬报告.shtml">薪酬报告</a></li>
+        <li><a href="http://www.meadin.com/tag_人事变动统计报告.shtml">人事报告</a></li>
+        <li><a href="http://www.meadin.com/tag_调查报告.shtml">调查报告</a></li>
+        <li><a href="http://www.meadin.com/tag_旅游报告.shtml">旅游报告</a></li>
+        <li><a href="http://res.meadin.com/HotelData/">酒店数据</a></li>
+        <li><a href="http://res.meadin.com/survey/">问卷调查</a></li>
+        <li><a href="http://index.meadin.com/">品牌指数</a></li>
+        <li><a href="http://index.meadin.com/yuqing/">舆情指数</a></li> --> 
+    <li><a href="http://res.meadin.com/IndustryReport/">原创报告</a></li> 
+    <li><a href="http://res.meadin.com/HotelData/">行业数据</a></li> 
+    <li><a href="http://res.meadin.com/survey/">问卷调查</a></li> 
+    <li><a href="http://res.meadin.com/zhinan/">加盟指南</a></li> 
+    <li><a href="http://index.meadin.com/">迈点品牌指数MBI</a></li> 
+    <li><a href="http://index.meadin.com/yuqing/">迈点区域酒店舆情指数MCI</a></li> 
+   </ul> 
+   <!-- 新技术 --> 
+   <ul data-column="nav-xjs" class="wrap clear2 hide"> 
+    <li><a href="http://tech.meadin.com/fxb/">风向标</a></li> 
+    <li><a href="http://tech.meadin.com/xph/">新品汇</a></li> 
+    <li><a href="http://tech.meadin.com/eyx/">新设计</a></li> 
+    <!-- <li><a href="http://tech.meadin.com/fws/">服务商</a></li>
+        <li><a href="http://tech.meadin.com/kjk/Index.shtml">科技控</a></li> --> 
+   </ul> 
+   <!-- 专栏 --> 
+   <!-- <ul data-column="nav-zl" class="wrap clear2 hide nav-zl">
+        <li><a href="http://column.meadin.com/ycg/Index.shtml">余昌国专栏</a></li>
+        <li><a href="http://column.meadin.com/fg/Index.shtml">付刚专栏</a></li>
+        <li><a href="http://column.meadin.com/djx/Index.shtml">杜觉祥专栏</a></li>
+        <li><a href="http://column.meadin.com/liy/Index.shtml">李原专栏</a></li>
+        <li><a href="http://column.meadin.com/zhy/Index.shtml">赵焕焱专栏</a></li>
+        <li><a href="http://column.meadin.com/zzw/Index.shtml">张祖望专栏</a></li>
+        <li><a href="http://column.meadin.com/liuhai/Index.shtml">刘海专栏</a></li>
+        <li><a href="http://column.meadin.com/jsz/Index.shtml">金首中专栏</a></li>
+        <li><a href="http://column.meadin.com/zcw/Index.shtml">张文成专栏</a></li>
+        <li><a href="http://column.meadin.com/fjj/Index.shtml">范建军专栏</a></li>
+        <li><a href="http://column.meadin.com/column_author/">更多</a></li>
+    </ul> --> 
+   <!-- 活动 --> 
+   <ul data-column="nav-hd" class="wrap clear2 hide"> 
+    <li><a href="http://event.meadin.com/fh/">峰会论坛</a></li> 
+    <li><a href="http://event.meadin.com/zh/">行业展会</a></li> 
+    <!-- <li><a href="http://event.meadin.com/qy/">企业活动</a></li> --> 
+    <li><a href="http://event.meadin.com/media/">合作媒体文章</a></li> 
+   </ul> 
+   <!-- 公寓 --> 
+   <!-- <ul data-column="nav-gy" class="wrap clear2 hide">
+        <li><a href="http://gy.meadin.com/serviced/">服务式公寓</a></li>
+        <li><a href="http://gy.meadin.com/changzu/">长租公寓</a></li>
+        <li><a href="http://gy.meadin.com/airbnb/">在线短租</a></li>
+        <li><a href="http://gy.meadin.com/duanzugy/">短租公寓</a></li>
+        <li><a href="http://gy.meadin.com/interview/">寓道</a></li>
+    </ul> --> 
+  </div> 
+ </header>
+ <div class="content wrap"> 
+  <!-- left S --> 
+  <div class="left fl"> 
+   <div class="listview"> 
+    <div class="list list-640"> 
+     <h3><a href="http://info.meadin.com/gongyu/146093_1.shtml" target="_blank" class="fl">第一个政府租赁公司挂牌成立 租房“国企”时代来了</a></h3> 
+     <a href="http://info.meadin.com/gongyu/146093_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0915/084752603.jpg" alt="第一个政府租赁公司挂牌成立 租房“国企”时代来了" class="fl default-img"></a> 
+     <p class="info">　　房屋租赁公司在深圳挂牌成立，注册资本金10亿元，由深圳市属国企人才安居集团全资控股，具有住房租赁、商业运营和物业管理三大核心功能。 </p> 
+     <div class="clear date"> 
+      <span class="fr arial">2017-09-15</span> 
+      <div class="fl">
+       <span class="iconfont fl"></span>
+       <a href="http://info.meadin.com/gongyu/Index.shtml" target="_blank" class="fl">长短租公寓</a>
+      </div> 
+      <div class="fl brand"> 
+       <span class="iconfont fl"></span> 
+       <a href="http://www.meadin.com/tag_%E6%94%BF%E5%BA%9C%E7%A7%9F%E8%B5%81%E5%85%AC%E5%8F%B8.shtml" target="_blank" class="fl">政府租赁公司</a> 
+       <a href="http://www.meadin.com/tag_%E7%A7%9F%E8%B5%81%E5%B8%82%E5%9C%BA.shtml" target="_blank" class="fl brand">租赁市场</a> 
+       <a href="http://www.meadin.com/tag_%E7%A7%9F%E8%B5%81%E2%80%9C%E5%9B%BD%E4%BC%81%E2%80%9D.shtml" target="_blank" class="fl brand">租赁“国企”</a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="list list-640"> 
+     <h3><a href="http://info.meadin.com/BrandDynamics/146092_1.shtml" target="_blank" class="fl">佛山首家澳斯特精选酒店将于10月1日开业</a></h3> 
+     <a href="http://info.meadin.com/BrandDynamics/146092_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0915/084910336.png" alt="佛山首家澳斯特精选酒店将于10月1日开业" class="fl default-img"></a> 
+     <p class="info">　　酒店楼高16层，外观华美恢宏，集会议、餐饮、娱乐、休闲等功能为一体</p> 
+     <div class="clear date"> 
+      <span class="fr arial">2017-09-15</span> 
+      <div class="fl">
+       <span class="iconfont fl"></span>
+       <a href="http://info.meadin.com/BrandDynamics/Index.shtml" target="_blank" class="fl">开业筹建</a>
+      </div> 
+      <div class="fl brand"> 
+       <span class="iconfont fl"></span> 
+       <a href="http://www.meadin.com/tag_%E4%BD%9B%E5%B1%B1%E7%A6%85%E5%9F%8E%E6%BE%B3%E6%96%AF%E7%89%B9%E7%B2%BE%E9%80%89%E9%85%92%E5%BA%97.shtml" target="_blank" class="fl">佛山禅城澳斯特精选酒店</a> 
+       <a href="http://www.meadin.com/tag_%E6%BE%B3%E6%96%AF%E7%89%B9%E7%B2%BE%E9%80%89%E9%85%92%E5%BA%97.shtml" target="_blank" class="fl brand">澳斯特精选酒店</a> 
+       <a href="http://www.meadin.com/tag_%E5%BC%80%E4%B8%9A%E7%AD%B9%E5%BB%BA.shtml" target="_blank" class="fl brand">开业筹建</a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="list list-640"> 
+     <h3><a href="http://info.meadin.com/PeopleReports/146022_1.shtml" target="_blank" class="fl">喆啡成功突破百店 重新定义空间运营模式是关键</a></h3> 
+     <a href="http://info.meadin.com/PeopleReports/146022_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0913/094546737.jpg" alt="喆啡成功突破百店 重新定义空间运营模式是关键" class="fl default-img"></a> 
+     <p class="info">　　为让投资人获得更大的回报，喆啡正在咖啡馆空间中，融入更多的跨界合作，对接更多消费需求，与很多体验品牌一起，落地一些新的消费体验。</p> 
+     <div class="clear date"> 
+      <span class="fr arial">2017-09-15</span> 
+      <div class="fl">
+       <span class="iconfont fl"></span>
+       <a href="http://info.meadin.com/PeopleReports/Index.shtml" target="_blank" class="fl">人物访谈</a>
+      </div> 
+      <div class="fl brand"> 
+       <span class="iconfont fl"></span> 
+       <a href="http://www.meadin.com/tag_%E5%96%86%E5%95%A1.shtml" target="_blank" class="fl">喆啡</a> 
+       <a href="http://www.meadin.com/tag_%E5%92%96%E5%95%A1%E9%A6%86.shtml" target="_blank" class="fl brand">咖啡馆</a> 
+       <a href="http://www.meadin.com/tag_%E7%A9%BA%E9%97%B4%E8%BF%90%E8%90%A5.shtml" target="_blank" class="fl brand">空间运营</a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="list list-640"> 
+     <h3><a href="http://info.meadin.com/wework/146091_1.shtml" target="_blank" class="fl">北京联合办公空间调查：CBD和望京密度最高</a></h3> 
+     <a href="http://info.meadin.com/wework/146091_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0914/182738324.jpg" alt="北京联合办公空间调查：CBD和望京密度最高" class="fl default-img"></a> 
+     <p class="info">　　据调查，在北京联合办公空间密集程度最高的地区，并不是有着“中国硅谷”之称的中关村，而是位于朝阳区的CBD和望京。 </p> 
+     <div class="clear date"> 
+      <span class="fr arial">2017-09-14</span> 
+      <div class="fl">
+       <span class="iconfont fl"></span>
+       <a href="http://info.meadin.com/wework/Index.shtml" target="_blank" class="fl">联合办公</a>
+      </div> 
+      <div class="fl brand"> 
+       <span class="iconfont fl"></span> 
+       <a href="http://www.meadin.com/tag_%E5%B0%8F%E5%BE%AE%E4%BC%81%E4%B8%9A.shtml" target="_blank" class="fl">小微企业</a> 
+       <a href="http://www.meadin.com/tag_%E5%85%B1%E4%BA%AB%E7%BB%8F%E6%B5%8E.shtml" target="_blank" class="fl brand">共享经济</a> 
+       <a href="http://www.meadin.com/tag_%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2.shtml" target="_blank" class="fl brand">中国特色</a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="list list-640"> 
+     <h3><a href="http://info.meadin.com/Industry/146086_1.shtml" target="_blank" class="fl">酒店如何招到并留住那些优秀的学生员工？</a></h3> 
+     <a href="http://info.meadin.com/Industry/146086_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0914/175417191.jpg" alt="酒店如何招到并留住那些优秀的学生员工？" class="fl default-img"></a> 
+     <p class="info">　　由于大多数大学生都在专注于上课，完成学校的项目，专注于顺利毕业，所以在工作场所提供一定的灵活性就变得非常重要。</p> 
+     <div class="clear date"> 
+      <span class="fr arial">2017-09-14</span> 
+      <div class="fl">
+       <span class="iconfont fl"></span>
+       <a href="http://info.meadin.com/Industry/Index.shtml" target="_blank" class="fl">酒店资讯</a>
+      </div> 
+      <div class="fl brand"> 
+       <span class="iconfont fl"></span> 
+       <a href="http://www.meadin.com/tag_%E5%91%98%E5%B7%A5.shtml" target="_blank" class="fl">员工</a> 
+       <a href="http://www.meadin.com/tag_%E5%AD%A6%E7%94%9F.shtml" target="_blank" class="fl brand">学生</a> 
+       <a href="http://www.meadin.com/tag_%E9%85%92%E5%BA%97%E6%8B%9B%E8%81%98.shtml" target="_blank" class="fl brand">酒店招聘</a> 
+       <a href="http://www.meadin.com/tag_%E4%BA%BA%E6%89%8D.shtml" target="_blank" class="fl brand">人才</a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="list list-640"> 
+     <h3><a href="http://info.meadin.com/wework/146084_1.shtml" target="_blank" class="fl">EV Hive 获前红杉资本合伙人领投350万美元pre-A轮融资</a></h3> 
+     <a href="http://info.meadin.com/wework/146084_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0914/173640639.jpg" alt="EV Hive 获前红杉资本合伙人领投350万美元pre-A轮融资" class="fl default-img"></a> 
+     <p class="info">　　截至目前，该公司融资总金额为430万美元。</p> 
+     <div class="clear date"> 
+      <span class="fr arial">2017-09-14</span> 
+      <div class="fl">
+       <span class="iconfont fl"></span>
+       <a href="http://info.meadin.com/wework/Index.shtml" target="_blank" class="fl">联合办公</a>
+      </div> 
+      <div class="fl brand"> 
+       <span class="iconfont fl"></span> 
+       <a href="http://www.meadin.com/tag_%E7%BA%A2%E6%9D%89%E8%B5%84%E6%9C%AC.shtml" target="_blank" class="fl">红杉资本</a> 
+       <a href="http://www.meadin.com/tag_A%E8%BD%AE%E8%9E%8D%E8%B5%84.shtml" target="_blank" class="fl brand">A轮融资</a> 
+       <a href="http://www.meadin.com/tag_%E5%9F%BA%E9%87%91%E5%8B%9F%E9%9B%86.shtml" target="_blank" class="fl brand">基金募集</a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="list list-640"> 
+     <h3><a href="http://info.meadin.com/DynamicPersonnel/146082_1.shtml" target="_blank" class="fl">雅阁任命徐彬为申泰雅阁温泉度假酒店总经理</a></h3> 
+     <a href="http://info.meadin.com/DynamicPersonnel/146082_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0914/172850914.jpg" alt="雅阁任命徐彬为申泰雅阁温泉度假酒店总经理" class="fl default-img"></a> 
+     <p class="info">　　徐彬先生有着十四年的酒店式公寓、精品度假酒店管理经验，他曾在日本东京、中国北京、浙江、江西、贵州等地的度假酒店担任管理职位。</p> 
+     <div class="clear date"> 
+      <span class="fr arial">2017-09-14</span> 
+      <div class="fl">
+       <span class="iconfont fl"></span>
+       <a href="http://info.meadin.com/DynamicPersonnel/Index.shtml" target="_blank" class="fl">人事任免</a>
+      </div> 
+      <div class="fl brand"> 
+       <span class="iconfont fl"></span> 
+       <a href="http://www.meadin.com/tag_%E7%94%B3%E6%B3%B0%E9%9B%85%E9%98%81%E6%B8%A9%E6%B3%89%E5%BA%A6%E5%81%87%E9%85%92%E5%BA%97.shtml" target="_blank" class="fl">申泰雅阁温泉度假酒店</a> 
+       <a href="http://www.meadin.com/tag_%E9%9B%85%E9%98%81%E9%85%92%E5%BA%97%E9%9B%86%E5%9B%A2.shtml" target="_blank" class="fl brand">雅阁酒店集团</a> 
+       <a href="http://www.meadin.com/tag_%E4%BA%BA%E4%BA%8B%E4%BB%BB%E5%85%8D.shtml" target="_blank" class="fl brand">人事任免</a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="list list-640"> 
+     <h3><a href="http://info.meadin.com/gongyu/146083_1.shtml" target="_blank" class="fl">香港房企内地征途 将何去何从?</a></h3> 
+     <a href="http://info.meadin.com/gongyu/146083_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0914/172804505.jpg" alt="香港房企内地征途 将何去何从?" class="fl default-img"></a> 
+     <p class="info">　　恒基兆业、新世界、和记黄埔等是中国房地产发展先锋与标杆，在内地与香港地产风向切换的当下，这些港资房企的下一站会是哪? </p> 
+     <div class="clear date"> 
+      <span class="fr arial">2017-09-14</span> 
+      <div class="fl">
+       <span class="iconfont fl"></span>
+       <a href="http://info.meadin.com/gongyu/Index.shtml" target="_blank" class="fl">长短租公寓</a>
+      </div> 
+      <div class="fl brand"> 
+       <span class="iconfont fl"></span> 
+       <a href="http://www.meadin.com/tag_%E6%B8%AF%E8%B5%84%E6%88%BF%E4%BC%81.shtml" target="_blank" class="fl">港资房企</a> 
+       <a href="http://www.meadin.com/tag_%E5%86%85%E5%9C%B0%E6%88%BF%E4%BC%81.shtml" target="_blank" class="fl brand">内地房企</a> 
+       <a href="http://www.meadin.com/tag_%E6%88%BF%E5%9C%B0%E4%BA%A7.shtml" target="_blank" class="fl brand">房地产</a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="list list-640"> 
+     <h3><a href="http://info.meadin.com/gongyu/146079_1.shtml" target="_blank" class="fl">闲置资产获新生：闲置留用地写字楼变长租公寓</a></h3> 
+     <a href="http://info.meadin.com/gongyu/146079_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0914/170703336.jpg" alt="闲置资产获新生：闲置留用地写字楼变长租公寓" class="fl default-img"></a> 
+     <p class="info">　　留用地闲置资源将变身长租公寓得以新生，而在杭州，已经有一些企业在进行尝试了。 </p> 
+     <div class="clear date"> 
+      <span class="fr arial">2017-09-14</span> 
+      <div class="fl">
+       <span class="iconfont fl"></span>
+       <a href="http://info.meadin.com/gongyu/Index.shtml" target="_blank" class="fl">长短租公寓</a>
+      </div> 
+      <div class="fl brand"> 
+       <span class="iconfont fl"></span> 
+       <a href="http://www.meadin.com/tag_%E9%97%B2%E7%BD%AE%E8%B5%84%E4%BA%A7.shtml" target="_blank" class="fl">闲置资产</a> 
+       <a href="http://www.meadin.com/tag_%E7%95%99%E7%94%A8%E5%9C%B0.shtml" target="_blank" class="fl brand">留用地</a> 
+       <a href="http://www.meadin.com/tag_%E9%95%BF%E7%A7%9F%E5%85%AC%E5%AF%93.shtml" target="_blank" class="fl brand">长租公寓</a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="list list-640"> 
+     <h3><a href="http://info.meadin.com/PictureNews/3085_1.shtml" target="_blank" class="fl">大饱眼福 30㎡性感单身女公寓</a></h3> 
+     <!-- 显示组图 --> 
+     <div class="imgview"> 
+      <a href="http://info.meadin.com/PictureNews/3085_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0914/162342670.jpg" alt="　　居住在小平米家中，不代表就要放弃室內设计。小空间若是杂乱无章，会给人一种逼仄感，不仅影响人的心情，久了也会影响一个人的气质;室内设计则是把有限的空间利用到最大化，给人以舒适的生活空间。" class="fl default-img"></a> 
+      <a href="http://info.meadin.com/PictureNews/3085_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0914/162352326.jpg" alt="　　室内设计先从一张纸上开始......" class="fl default-img"></a> 
+      <a href="http://info.meadin.com/PictureNews/3085_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0914/162352804.jpg" alt="　　整个空间以冷色调为主，给人一种干净整洁之感。运用白色裸砖墙面及人字拼木地板妆点平米住宅、墙上的印象画加深屋内个性感。" class="fl default-img"></a> 
+     </div> 
+     <div class="clear date"> 
+      <span class="fr arial">2017-09-14</span> 
+      <div class="fl">
+       <span class="iconfont fl"></span>
+       <a href="http://info.meadin.com/PictureNews/Index.shtml" target="_blank" class="fl">图片资讯</a>
+      </div> 
+      <div class="fl brand"> 
+       <span class="iconfont fl"></span> 
+       <a href="http://www.meadin.com/tag_%E5%B0%8F%E5%B9%B3%E7%B1%B3.shtml" target="_blank" class="fl">小平米</a> 
+       <a href="http://www.meadin.com/tag_%E5%85%AC%E5%AF%93.shtml" target="_blank" class="fl brand">公寓</a> 
+       <a href="http://www.meadin.com/tag_%E5%8D%95%E8%BA%AB%E5%A5%B3%E5%85%AC%E5%AF%93.shtml" target="_blank" class="fl brand">单身女公寓</a> 
+       <a href="http://www.meadin.com/tag_%E5%9B%BE%E7%89%87%E8%B5%84%E8%AE%AF.shtml" target="_blank" class="fl brand">图片资讯</a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="list list-640"> 
+     <h3><a href="http://info.meadin.com/Industry/146076_1.shtml" target="_blank" class="fl">酒店+住宅“两条腿”走路 富力能否成为中国的希尔顿</a></h3> 
+     <a href="http://info.meadin.com/Industry/146076_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0914/143750847.jpg" alt="酒店+住宅“两条腿”走路 富力能否成为中国的希尔顿" class="fl default-img"></a> 
+     <p class="info">　　希尔顿只是个参照系，富力想要一个酒店帝国，带它重回房企前列。</p> 
+     <div class="clear date"> 
+      <span class="fr arial">2017-09-14</span> 
+      <div class="fl">
+       <span class="iconfont fl"></span>
+       <a href="http://info.meadin.com/Industry/Index.shtml" target="_blank" class="fl">酒店资讯</a>
+      </div> 
+      <div class="fl brand"> 
+       <span class="iconfont fl"></span> 
+       <a href="http://www.meadin.com/tag_%E5%AF%8C%E5%8A%9B%E5%9C%B0%E4%BA%A7.shtml" target="_blank" class="fl">富力地产</a> 
+       <a href="http://www.meadin.com/tag_%E4%B8%87%E8%BE%BE%E9%85%92%E5%BA%97.shtml" target="_blank" class="fl brand">万达酒店</a> 
+       <a href="http://www.meadin.com/tag_%E5%AF%8C%E5%8A%9B%E9%85%92%E5%BA%97.shtml" target="_blank" class="fl brand">富力酒店</a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="list list-640"> 
+     <h3><a href="http://info.meadin.com/wework/146075_1.shtml" target="_blank" class="fl">共享平台向纵深发展 优客工场在拉萨、雄安等地布局</a></h3> 
+     <a href="http://info.meadin.com/wework/146075_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0914/141800568.jpg" alt="共享平台向纵深发展 优客工场在拉萨、雄安等地布局" class="fl default-img"></a> 
+     <p class="info">　　优客工场接连宣布了拉萨、襄阳、开封、大连、沈阳、延安、雄安等一系列城市的新社区落地消息。 </p> 
+     <div class="clear date"> 
+      <span class="fr arial">2017-09-14</span> 
+      <div class="fl">
+       <span class="iconfont fl"></span>
+       <a href="http://info.meadin.com/wework/Index.shtml" target="_blank" class="fl">联合办公</a>
+      </div> 
+      <div class="fl brand"> 
+       <span class="iconfont fl"></span> 
+       <a href="http://www.meadin.com/tag_%E4%BC%98%E5%AE%A2%E5%B7%A5%E5%9C%BA.shtml" target="_blank" class="fl">优客工场</a> 
+       <a href="http://www.meadin.com/tag_%E5%85%B1%E4%BA%AB%E5%B9%B3%E5%8F%B0.shtml" target="_blank" class="fl brand">共享平台</a> 
+       <a href="http://www.meadin.com/tag_%E9%9B%84%E5%AE%89.shtml" target="_blank" class="fl brand">雄安</a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="list list-640"> 
+     <h3><a href="http://info.meadin.com/BrandDynamics/146074_1.shtml" target="_blank" class="fl">Nobu Hospitality与Selenta Group合作开发新酒店</a></h3> 
+     <a href="http://info.meadin.com/BrandDynamics/146074_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0914/134923278.jpg" alt="Nobu Hospitality与Selenta Group合作开发新酒店" class="fl default-img"></a> 
+     <p class="info">　　新酒店拥有250间客房及套房，以及会议室、活动场所和Nobu餐厅，并将与Nobu Hospitality签订长期管理合约。</p> 
+     <div class="clear date"> 
+      <span class="fr arial">2017-09-14</span> 
+      <div class="fl">
+       <span class="iconfont fl"></span>
+       <a href="http://info.meadin.com/BrandDynamics/Index.shtml" target="_blank" class="fl">开业筹建</a>
+      </div> 
+      <div class="fl brand"> 
+       <span class="iconfont fl"></span> 
+       <a href="http://www.meadin.com/tag_Nobu.shtml" target="_blank" class="fl">Nobu</a> 
+       <a href="http://www.meadin.com/tag_%E5%BC%80%E4%B8%9A%E7%AD%B9%E5%BB%BA.shtml" target="_blank" class="fl brand">开业筹建</a> 
+       <a href="http://www.meadin.com/tag_Selenta.shtml" target="_blank" class="fl brand">Selenta</a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="list list-640"> 
+     <h3><a href="http://info.meadin.com/gongyu/146073_1.shtml" target="_blank" class="fl">朗诗收购成都成华迷你商业地 报规获批或建公寓</a></h3> 
+     <a href="http://info.meadin.com/gongyu/146073_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0914/113248966.jpg" alt="朗诗收购成都成华迷你商业地 报规获批或建公寓" class="fl default-img"></a> 
+     <p class="info">　　朗诗上半年通过收购方式获得的成华区商业地块，目前规划已获审批，预计建设面积达3万平方米。 </p> 
+     <div class="clear date"> 
+      <span class="fr arial">2017-09-14</span> 
+      <div class="fl">
+       <span class="iconfont fl"></span>
+       <a href="http://info.meadin.com/gongyu/Index.shtml" target="_blank" class="fl">长短租公寓</a>
+      </div> 
+      <div class="fl brand"> 
+       <span class="iconfont fl"></span> 
+       <a href="http://www.meadin.com/tag_%E6%9C%97%E8%AF%97.shtml" target="_blank" class="fl">朗诗</a> 
+       <a href="http://www.meadin.com/tag_%E6%9C%97%E8%AF%97%E5%AF%93.shtml" target="_blank" class="fl brand">朗诗寓</a> 
+       <a href="http://www.meadin.com/tag_%E9%95%BF%E7%A7%9F%E5%85%AC%E5%AF%93.shtml" target="_blank" class="fl brand">长租公寓</a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="list list-640"> 
+     <h3><a href="http://info.meadin.com/Ota/146071_1.shtml" target="_blank" class="fl">你所不了解的携程：从人口、经济到使命与责任</a></h3> 
+     <a href="http://info.meadin.com/Ota/146071_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0914/111708428.jpg" alt="你所不了解的携程：从人口、经济到使命与责任" class="fl default-img"></a> 
+     <p class="info">　　“离开航企，OTA将没有生存土壤，而失去了OTA，航企也缺少了优质的合作伙伴。”</p> 
+     <div class="clear date"> 
+      <span class="fr arial">2017-09-14</span> 
+      <div class="fl">
+       <span class="iconfont fl"></span>
+       <a href="http://info.meadin.com/Ota/Index.shtml" target="_blank" class="fl">在线旅游</a>
+      </div> 
+      <div class="fl brand"> 
+       <span class="iconfont fl"></span> 
+       <a href="http://www.meadin.com/tag_%E6%90%BA%E7%A8%8B.shtml" target="_blank" class="fl">携程</a> 
+       <a href="http://www.meadin.com/tag_%E5%AD%99%E6%B4%81.shtml" target="_blank" class="fl brand">孙洁</a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="list list-640"> 
+     <h3><a href="http://info.meadin.com/Industry/146070_1.shtml" target="_blank" class="fl">中秋酒店月饼调查：过半价格虚高 可开餐饮发票</a></h3> 
+     <a href="http://info.meadin.com/Industry/146070_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0914/111200288.jpg" alt="中秋酒店月饼调查：过半价格虚高 可开餐饮发票" class="fl default-img"></a> 
+     <p class="info">　　星级酒店月饼选购方面存在哪些问题？55%的消费者表示价格虚高；25%的消费者表示包装过度；过度推销占13%，5%则认为口味单调。</p> 
+     <div class="clear date"> 
+      <span class="fr arial">2017-09-14</span> 
+      <div class="fl">
+       <span class="iconfont fl"></span>
+       <a href="http://info.meadin.com/Industry/Index.shtml" target="_blank" class="fl">酒店资讯</a>
+      </div> 
+      <div class="fl brand"> 
+       <span class="iconfont fl"></span> 
+       <a href="http://www.meadin.com/tag_%E9%85%92%E5%BA%97%E6%9C%88%E9%A5%BC.shtml" target="_blank" class="fl">酒店月饼</a> 
+       <a href="http://www.meadin.com/tag_%E4%B8%AD%E7%A7%8B%E8%8A%82.shtml" target="_blank" class="fl brand">中秋节</a> 
+       <a href="http://www.meadin.com/tag_%E6%9C%88%E9%A5%BC.shtml" target="_blank" class="fl brand">月饼</a> 
+       <a href="http://www.meadin.com/tag_%E5%8F%91%E7%A5%A8.shtml" target="_blank" class="fl brand">发票</a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="list list-640"> 
+     <h3><a href="http://info.meadin.com/gongyu/146072_1.shtml" target="_blank" class="fl">长租公寓这么红火 租房真能替代买房了吗?</a></h3> 
+     <a href="http://info.meadin.com/gongyu/146072_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0914/111715195.jpg" alt="长租公寓这么红火 租房真能替代买房了吗?" class="fl default-img"></a> 
+     <p class="info">　　长租公寓的发展是有目共睹的，但能否替代买房还需解决许多问题。 </p> 
+     <div class="clear date"> 
+      <span class="fr arial">2017-09-14</span> 
+      <div class="fl">
+       <span class="iconfont fl"></span>
+       <a href="http://info.meadin.com/gongyu/Index.shtml" target="_blank" class="fl">长短租公寓</a>
+      </div> 
+      <div class="fl brand"> 
+       <span class="iconfont fl"></span> 
+       <a href="http://www.meadin.com/tag_%E9%95%BF%E7%A7%9F%E5%85%AC%E5%AF%93.shtml" target="_blank" class="fl">长租公寓</a> 
+       <a href="http://www.meadin.com/tag_%E7%A7%9F%E6%88%BF.shtml" target="_blank" class="fl brand">租房</a> 
+       <a href="http://www.meadin.com/tag_%E4%B9%B0%E6%88%BF.shtml" target="_blank" class="fl brand">买房</a> 
+       <a href="http://www.meadin.com/tag_%E5%B8%82%E5%9C%BA.shtml" target="_blank" class="fl brand">市场</a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="list list-640"> 
+     <h3><a href="http://info.meadin.com/Ota/146069_1.shtml" target="_blank" class="fl">OTA鼻祖Priceline谈竞争:看不见的狮子才更可怕</a></h3> 
+     <a href="http://info.meadin.com/Ota/146069_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0914/105819339.jpg" alt="OTA鼻祖Priceline谈竞争:看不见的狮子才更可怕" class="fl default-img"></a> 
+     <p class="info">　　即使已是全球OTA巨头，Priceline依然需要居安思危，特别是细分领域的挑战者以及市场大整合带来的压力。</p> 
+     <div class="clear date"> 
+      <span class="fr arial">2017-09-14</span> 
+      <div class="fl">
+       <span class="iconfont fl"></span>
+       <a href="http://info.meadin.com/Ota/Index.shtml" target="_blank" class="fl">在线旅游</a>
+      </div> 
+      <div class="fl brand"> 
+       <span class="iconfont fl"></span> 
+       <a href="http://www.meadin.com/tag_Priceline.shtml" target="_blank" class="fl">Priceline</a> 
+       <a href="http://www.meadin.com/tag_OTA.shtml" target="_blank" class="fl brand">OTA</a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="list list-640"> 
+     <h3><a href="http://info.meadin.com/Ota/146067_1.shtml" target="_blank" class="fl">习近平：旅游是提高人民生活水平的重要产业</a></h3> 
+     <a href="http://info.meadin.com/Ota/146067_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0914/10462383.jpg" alt="习近平：旅游是提高人民生活水平的重要产业" class="fl default-img"></a> 
+     <p class="info">　　习近平强调，中国高度重视发展旅游业，旅游业对中国经济和就业的综合贡献率已超过10%。旅游是提高人民生活水平的重要产业。</p> 
+     <div class="clear date"> 
+      <span class="fr arial">2017-09-14</span> 
+      <div class="fl">
+       <span class="iconfont fl"></span>
+       <a href="http://info.meadin.com/Ota/Index.shtml" target="_blank" class="fl">在线旅游</a>
+      </div> 
+      <div class="fl brand"> 
+       <span class="iconfont fl"></span> 
+       <a href="http://www.meadin.com/tag_%E4%B8%96%E7%95%8C%E6%97%85%E6%B8%B8%E8%81%94%E7%9B%9F.shtml" target="_blank" class="fl">世界旅游联盟</a> 
+       <a href="http://www.meadin.com/tag_%E4%B9%A0%E8%BF%91%E5%B9%B3.shtml" target="_blank" class="fl brand">习近平</a> 
+       <a href="http://www.meadin.com/tag_%E6%9D%8E%E5%85%8B%E5%BC%BA.shtml" target="_blank" class="fl brand">李克强</a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="list list-640"> 
+     <h3><a href="http://info.meadin.com/Industry/146064_1.shtml" target="_blank" class="fl">华住张敏：盲目收购并不靠谱 别老想着“一统江湖”</a></h3> 
+     <a href="http://info.meadin.com/Industry/146064_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0914/103700809.jpg" alt="华住张敏：盲目收购并不靠谱 别老想着“一统江湖”" class="fl default-img"></a> 
+     <p class="info">　　在张敏看来，华住并不想成为酒店行业中唯我独尊的所谓“老大”。以用户为中心不能只是耍嘴炮，应该拿出点实际的东西。</p> 
+     <div class="clear date"> 
+      <span class="fr arial">2017-09-14</span> 
+      <div class="fl">
+       <span class="iconfont fl"></span>
+       <a href="http://info.meadin.com/Industry/Index.shtml" target="_blank" class="fl">酒店资讯</a>
+      </div> 
+      <div class="fl brand"> 
+       <span class="iconfont fl"></span> 
+       <a href="http://www.meadin.com/tag_%E5%BC%A0%E6%95%8F.shtml" target="_blank" class="fl">张敏</a> 
+       <a href="http://www.meadin.com/tag_%E5%8D%8E%E4%BD%8F%E9%85%92%E5%BA%97%E9%9B%86%E5%9B%A2.shtml" target="_blank" class="fl brand">华住酒店集团</a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <section class="pages"> 
+    <ul class="page-list"> 
+     <a class="a1 total">47259条</a> 
+     <a href="Index_1.shtml" class="a1">上一页</a> 
+     <a href="Index_1.shtml">1</a> 
+     <span>2</span> 
+     <a href="Index_3.shtml">3</a> 
+     <a href="Index_4.shtml">4</a> 
+     <a href="Index_5.shtml">5</a> .. 
+     <a href="Index_2363.shtml">2363</a> 
+     <a href="Index_3.shtml" class="a1">下一页</a> 
+    </ul> 
+   </section> 
+  </div>
+  <!-- left E --> 
+  <!-- right S --> 
+  <!-- 资讯右侧 --> 
+  <div class="right fr"> 
+   <!-- 提供线索 S --> 
+   <p><a class="btn btn-club iconfont mt20" href="http://info.meadin.com/Industry/104986_1.shtml" target="_blank"><span class="letter fl"></span><span class="fl">提供线索</span></a></p> 
+   <!-- 提供线索 E --> 
+   <p>
+    <!-- 本周关注 S --> </p>
+   <div class="listview mt20"> 
+    <h2 class="h2-36"><span class="fl">本周关注</span><a href="http://info.meadin.com/special_list_90_1.html" class="fr iconfont icon-more">&gt;&gt;</a></h2> 
+    <div class="list list-280"> 
+     <h3><a href="http://www.meadin.com/special/concern/2017womensday/" class="fl">优雅女神范：旅游及大住宿业女高管为何充满了魅力?</a></h3> 
+     <img src="http://f3.v.veimg.cn/meadincms/1/2017/0307/115600904.jpg" alt="优雅女神范：旅游及大住宿业女高管为何充满了魅力?" class="fl default-img"> 
+     <p class="info">　　优雅女神季，和迈点网一起和旅游及大住宿女高管面对面，感受她们的魅力，聆听...</p> 
+    </div> 
+    <ul class="list-ul"> 
+     <li><a href="http://www.meadin.com/special/concern/2017program/">还原2016 解构2017：迈点网年度...</a></li> 
+     <li><a href="http://www.meadin.com/special/concern/concern289/">这是一个“有味道”的端午</a></li> 
+     <li><a href="http://www.meadin.com/special/concern/concern287/">为了呵护我们的未来 酒店业是这...</a></li> 
+    </ul> 
+   </div> 
+   <!-- 本周关注 E -->
+   <p></p> 
+   <p>
+    <!-- 品牌汇 S --> </p>
+   <div class="brand-hui mt20"> 
+    <h2><a class="fr iconfont icon-more" href="http://info.meadin.com/special_list_46_1.html" target="_blank">&gt;&gt;</a>品牌汇</h2> 
+    <div class="slider"> 
+     <ul class="play"> 
+      <li><a href="http://info.meadin.com/special/hotelbrand/tlyx/" target="_blank"><img alt="海航酒店集团正式发布2016企业社会责任报告" class="slider-img" src="https://f3-md.veimg.cn/meadincms/1/2017/0824/150335497.jpg"> <span class="slider-title">海航酒店集团正式发布2016企业社会责任报告</span> </a></li> 
+      <li><a href="http://info.meadin.com/special/hotelbrand/jl2017/" target="_blank"><img alt="在君澜，体验一次身体与灵魂的度假！" class="slider-img" src="https://f3-md.veimg.cn/meadincms/1/2017/0627/170337114.jpg"> <span class="slider-title">在君澜，体验一次身体与灵魂的度假！</span> </a></li> 
+      <li><a href="http://info.meadin.com/special/hotelbrand/bd2017/" target="_blank"><img alt="拜登:全力打造国际住宿业领先品牌" class="slider-img" src="https://f3-md.veimg.cn/meadincms/1/2017/0609/104447748.jpg"> <span class="slider-title">拜登:全力打造国际住宿业领先品牌</span> </a></li> 
+      <li><a href="http://info.meadin.com/special/hotelbrand/yasite5y/" target="_blank"><img alt="雅斯特 站上巨人的肩膀" class="slider-img" src="http://f3.v.veimg.cn/meadincms/1/2017/0510/091629991.jpg"> <span class="slider-title">雅斯特 站上巨人的肩膀</span> </a></li> 
+     </ul> 
+     <span class="slider-title"><span class="next iconfont"></span> <span class="prev iconfont"></span></span>
+    </div> 
+    <p><span class="slider-title"><a href="http://info.meadin.com/pph/145605_1.shtml" target="_blank">智驿信息荣获年智慧酒店最具影响力企业奖</a></span></p> 
+    <p><span class="slider-title"><a href="http://info.meadin.com/special/hotelbrand/bx2017/" target="_blank">佰翔全国布局拉开帷幕 即将开业酒店大盘点</a></span></p>
+   </div> 
+   <!-- 品牌汇 E -->
+   <p></p> 
+   <p>
+    <!-- 资讯周刊 S --> </p>
+   <div class="listview mt20"> 
+    <h2 class="h2-36"><span class="fl">资讯周刊</span><a href="http://info.meadin.com/special_list_68_1.html" class="fr iconfont icon-more">&gt;&gt;</a></h2> 
+    <div class="list list-280 list-weekly b-b-none p-b-0"> 
+     <p><img alt="《资讯周刊》第426期" class="fl default-img border" src="http://f3.v.veimg.cn/meadincms/1/2017/0123/171253441.jpg"></p> 
+     <div class="info"> 
+      <h3><a class="fl" href="http://www.meadin.com/special/hotelier/hoteliernews426/" se_prerender_url="complete" target="_blank">《资讯周刊》第426期</a></h3> 
+      <script type="text/javascript" src="http://static.md.veimg.cn/js/bdtj.js"></script>
+      <script language="JavaScript" src="http://www.meadin.com/Click_ajax.asp?type=js&amp;SubSys=NSS&amp;spanid=NS_id_click_1914"></script> 
+      <p> 　　2017年8月国际高端酒店品牌发展报告；布草风波后 酒店如何重建客户信任？不赚钱的长租公寓 企业缘何趋之若鹜？</p> 
+     </div> 
+     <p>&nbsp;</p> 
+    </div> 
+   </div> 
+   <!-- 资讯周刊 E -->
+   <p></p> 
+   <p>
+    <!-- search S --> </p>
+   <div class="book mt20"> 
+    <input type="text" id="sub_email" class="fl" placeholder="输入邮箱地址"> 
+    <a href="javascript:subscribe();" class="btn btn-book fl">订阅</a> 
+   </div> 
+   <script>
+function subscribe(){
+	var sub_email = $('#sub_email').val();
+	if(!sub_email){
+		alert("您还没有填写邮箱地址");
+	}else{
+		$.ajax({
+			url: '/index.php?m=hua&c=subscribe&a=init',
+			type: 'GET',
+			dataType: 'json',
+			data: {email: sub_email}
+		})
+		.done(function(res){
+			alert(res.message);
+		});
+	}
+}
+</script> 
+   <!-- search E -->
+   <p></p> 
+   <p>
+    <!-- 迈点纵横 S --> </p>
+   <div class="mt20 cross"> 
+    <h2><a class="fr iconfont icon-more" href="http://info.meadin.com/special_list_60_1.html" target="_blank">&gt;&gt;</a>直播间</h2> 
+    <h3><a href="http://info.meadin.com/special/hotelforum/zbmbi2016/" target="_blank">2016年度酒店业影响力品牌颁奖盛典内容回顾</a></h3> 
+    <div class="info">
+     <a href="http://info.meadin.com/special/hotelforum/mbi2016/" target="_blank"><img alt="" class="fl img" src="http://f3.v.veimg.cn/meadincms/1/2015/0226/20150226114652403.jpg"></a> 
+     <p class="p">由第三方大数据运营及媒体平台迈点网发起的年度酒店行业盛会。</p> 
+    </div> 
+    <p class="list"><a href="http://info.meadin.com/special/hotelforum/gymbizb/" target="_blank">2016年度最具影响力公寓品牌颁奖盛典</a></p> 
+    <p class="list"><a href="http://info.meadin.com/special/hotelforum/2017chcf/" target="_blank">第六届中国饭店文化节</a></p> 
+    <p class="list"><a href="http://info.meadin.com/special/hotelforum/16thseminar/" target="_blank">第十六届中国酒店业新发现研讨会</a></p> 
+    <ul></ul> 
+   </div> 
+   <p>&nbsp;</p>
+   <!-- 迈点纵横 E -->
+   <p></p> 
+   <p>
+    <!-- 封面秀 S --> </p>
+   <div class="mt20"> 
+    <h2 class="h2-36"><a class="fr iconfont icon-more" href="http://info.meadin.com/PeopleReports/" target="_blank">&gt;&gt;</a>人物访谈</h2> 
+    <ul class="cover"> 
+     <li> <a href="http://info.meadin.com/PeopleReports/142678_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0606/092207469.jpg" alt="恺信亚洲执行董事黎芸桦" class="default-img"></a> <p><a href="http://info.meadin.com/PeopleReports/142678_1.shtml" target="_blank">恺信亚洲 黎芸桦</a></p> </li> 
+     <li> <a href="http://info.meadin.com/PeopleReports/142593_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0606/092207599.jpg" alt="雅兰纺织集团总裁任勇彰" class="default-img"></a> <p><a href="http://info.meadin.com/PeopleReports/142593_1.shtml">雅兰纺织 任勇彰</a></p> </li> 
+     <li> <a href="http://info.meadin.com/PeopleReports/142488_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0606/092209471.jpg" alt="ABC旅行预订CEO时李铭" class="default-img"></a> <p><a href="http://info.meadin.com/PeopleReports/142488_1.shtml" target="_blank">ABC 时李铭</a></p> </li> 
+     <li> <a href="http://info.meadin.com/PeopleReports/142304_1.shtml" target="_blank"><img src="https://f3-md.veimg.cn/meadincms/1/2017/0710/093813269.jpg" alt="榴莲酒店集团董事长程军" class="default-img"></a> <p><a href="http://info.meadin.com/PeopleReports/143952_1.shtml" target="_blank">榴莲酒店 程军</a></p> </li> 
+    </ul> 
+   </div> 
+   <!-- 封面秀 E -->
+   <p></p> 
+   <!-- 友情链接 S --> 
+   <!-- 友情链接 S --> 
+   <div class="mt20 links"> 
+    <h2>友情链接</h2> 
+    <p class="mt10"> <a href="http://www.chinahotel.org.cn" target="_blank">中国饭店协会 </a> <a href="http://www.lvmama.com/" target="_blank">驴妈妈旅游网</a> <a href="http://weyou.wehefei.com/" target="_blank">合肥网we游</a> <a href="http://www.cnygg.com/" target="_blank">中国能源经济网</a> <a href="http://www.csmeiti.com" target="_blank">岭南网</a> <a href="http://service.ocn.com.cn/" target="_blank">中国服务业投资网</a> <a href="http://www.thankyou99.com/" target="_blank">尚客优酒店官网</a> <a href="http://hz.house.qq.com/" target="_blank">腾讯房产杭州站</a> <a href="http://www.jdypgxw.com/" target="_blank">中国酒店用品供销网</a> <a href="http://sanya.fang.com/" target="_blank">三亚房天下</a> <a href="http://dl.fang.com/" target="_blank">大连房天下</a> </p> 
+    <h2 class="mt10">联系我们</h2> 
+    <ul class="mt10"> 
+     <li><span class="iconfont"></span>迈点新闻部</li> 
+     <li><span class="iconfont"></span>咨询电话：<span class="gray">0571-87672167</span></li> 
+     <li><span class="iconfont"></span>电子邮箱：<a href="mailto:news@meadin.com">news@meadin.com</a></li> 
+    </ul> 
+    <!--
+	<ul class="mt10">
+		<li><span class="iconfont"></span>迈点编辑部</li>
+		<li><span class="iconfont"></span>咨询电话：<span class="gray">0571-87672163</span></li>
+		<li><span class="iconfont"></span>电子邮箱：<a href="mailto:news@meadin.com">news@meadin.com</a></li>
+	</ul>
+	--> 
+   </div> 
+   <!-- 友情链接 E --> 
+   <!-- 友情链接 E --> 
+ 
